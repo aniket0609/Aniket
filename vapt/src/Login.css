@@ -1,0 +1,117 @@
+/* Overall layout and styling for the app */
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    45deg,
+    rgba(108, 110, 165, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+  color: #fff;
+}
+
+/* Styling for the container that holds the registration and login sections */
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Styling for the registration and login sections */
+.registration,
+.login {
+  flex: 0 0 48%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+/* Scale up the registration and login sections on hover */
+.registration:hover,
+.login:hover {
+  animation-name: scaleUp;
+}
+
+/* Keyframes for scaling up the registration and login sections on hover */
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styling for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input styles for text and password inputs */
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Button styles on hover */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Additional heading styles */
+h1 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Styling for welcome message */
+.welcome-message {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Styling for notification messages */
+.notification-message {
+  margin-top: 10px;
+  text-align: center;
+  color: #45a049;
+  font-weight: bold;
+}

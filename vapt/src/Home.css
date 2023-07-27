@@ -1,0 +1,350 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body styles */
+body {
+  background: rgb(219, 219, 219);
+}
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: #fff;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo anchor styles */
+.logo a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 2rem 8rem 2rem 2rem;
+}
+
+/* Search box styles */
+.search_box {
+  display: flex;
+  align-items: center;
+}
+
+/* Search box hover effect */
+.search_box:hover {
+  transform: scale(1.02);
+}
+
+/* Search box input styles */
+.search_box input {
+  padding: 9px;
+  margin-top: 9px;
+  width: 250px;
+  background: rgb(228, 228, 228);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* Search box icon styles */
+.search_box i {
+  padding: 0.66rem;
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Search box icon hover effect */
+.search_box i:hover {
+  transform: scale(1.12);
+}
+
+/* Header icons styles */
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Header icons spacing styles */
+.header-icons i {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+/* Account section styles */
+.header-icons .account {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Account icon styles */
+.header-icons .account i {
+  color: #000;
+}
+
+/* Account icon hover effect */
+.header-icons .account i:hover {
+  transform: scale(2.02);
+}
+
+/* Account image styles */
+.header-icons .account img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 75%;
+}
+
+/* Container styles */
+.container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Sidebar section */
+nav {
+  background: #fff;
+}
+
+/* Side navbar styles */
+.side_navbar {
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Side navbar span styles */
+.side_navbar span {
+  color: gray;
+  margin: 1rem 3rem;
+  font-size: 12px;
+}
+
+/* Side navbar link styles */
+.side_navbar a {
+  width: 100%;
+  padding: 0.8rem 3rem;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(100, 100, 100);
+}
+
+/* Links section styles */
+.links {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Link styles */
+.links a {
+  font-size: 13px;
+}
+
+/* Side navbar link hover effect */
+.side_navbar a:hover {
+  background: rgb(235, 235, 235);
+}
+
+/* Active link styles */
+.side_navbar .active {
+  border-left: 2px solid rgb(100, 100, 100);
+}
+
+/* Main Body section styles */
+.main-body {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Promo card styles */
+.promo_card {
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: #181b53;
+}
+
+/* Promo card heading, span, and button styles */
+.promo_card h1,
+.promo_card span,
+button {
+  margin: 10px;
+}
+
+/* Promo card button styles */
+.promo_card button {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Chart heading styles */
+.chart-heading {
+  color: black;
+  margin: 2rem;
+  font-size: 22px;
+}
+
+/* Chart container styles */
+.chart-container {
+  width: 300px;
+  margin-top: auto;
+  padding: 2rem;
+}
+
+/* Pie chart styles */
+.pie-chart {
+  margin-left: 2rem;
+}
+
+/* Programming stats styles */
+.programming-stats {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  gap: 24px;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-left: 0px;
+  width: fit-content;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-left: 15px;
+  color: #023047;
+  transition: all 400ms ease;
+  justify-content: space-between;
+}
+
+/* Programming stats hover effect */
+.programming-stats:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+}
+
+/* Programming stats details styles */
+.programming-stats .details {
+  display: flex;
+  align-items: left;
+  padding-right: 40px;
+}
+
+/* Programming stats details unordered list styles */
+.programming-stats .details ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Programming stats details list item styles */
+.programming-stats .details ul li {
+  font-size: 16px;
+  margin: 12px 0;
+  text-transform: uppercase;
+}
+
+/* Programming stats details percentage styles */
+.programming-stats .details .percentage {
+  font-weight: 700;
+  color: #e63946;
+}
+
+/* Sidebar section styles */
+.sidebar {
+  width: 15%;
+  padding: 2rem 1rem;
+  background: #fff;
+}
+
+/* Sidebar heading styles */
+.sidebar h4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Sidebar balance styles */
+.sidebar .balance {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Sidebar icon styles */
+.balance .icon {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-right: 1rem;
+  padding: 1rem;
+  background: rgb(37, 37, 37);
+}
+
+/* Sidebar info styles */
+.balance .info h5 {
+  font-size: 16px;
+}
+
+/* Sidebar info span styles */
+.balance .info span {
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+
+/* Sidebar info icon styles */
+.balance .info i {
+  margin-right: 2px;
+}
+
+/* Center body styles */
+.center-body {
+  width: 90%;
+  padding: 2rem 2rem 3rem 6rem;
+}
+
+/* Text-end styles */
+.text-end {
+  border-width: 1px;
+  outline-width: 1px;
+  background-color: #fff;
+}
+
+/* Text-end input styles */
+.text-end input {
+  padding: 9px;
+  width: 480px;
+  background: rgb(196, 192, 192);
+  border-radius: 5px;
+}
+
+/* Table styles */
+.table {
+  background-color: rgb(225, 225, 225);
+  width: 100%;
+  height: auto;
+}
