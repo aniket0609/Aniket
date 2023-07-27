@@ -1,0 +1,28 @@
+Adversary-in-the-Middle:
+	Service Creation=>EVENT_ID.txt
+	windows Registry=>enable _multicaste.txt
+	process_creation=>event.txt
+
+external remote services:
+	Logon Session =>Logon_code.txt
+
+Automated Collection:
+	File Access=> File_Access.txt
+Block Serial COM:
+	Process Termination=>Process Termination.txt
+
+Denial of Service:
+	network detection => network_trafficflow.txt
+Internet Accessible Device:
+	Network Traffic Flow=> tcp and upd moniter.txt/cs
+block reporting message:
+	Application Log => 
+
+CSC-YDpqWsxuLtauHareYrHF
+
+
+
+
+
+
+
